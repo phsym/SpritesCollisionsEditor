@@ -15,14 +15,14 @@ In a terminal, go to the project directory and invoke the Ant builder with <br>
 
 ## How to launch :
 ### Windows :
-Launch the application by double-clicking on CollisionsEditor.jar
+Launch the application by double-clicking on SpritesCollisionsEditor.jar
 ### Other platforms :
 In a terminal, invoke <br>
-> java -jar CollisionsEditor.jar
+> java -jar SpritesCollisionsEditor.jar
 
 ## How to use :
 
-
+*Under construction*
 
 
 ## License :
