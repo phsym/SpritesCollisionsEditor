@@ -1,5 +1,5 @@
 /*
-* CollisionsEditor
+* SpritesCollisionsEditor
 * Copyright (C) 2012 Pierre-Henri Symoneaux
 * 
 * This program is free software; you can redistribute it and/or modify

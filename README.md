@@ -1,4 +1,4 @@
-# Collisions Editor.
+# Sprites Collisions Editor.
 *Copyright (C) 2012 Pierre-Henri Symoneaux*
 
 > THIS PROGRAM IS DISTRIBUTED WITHOUT ANY WARRANTY <br>
@@ -23,7 +23,6 @@ In a terminal, invoke <br>
 ## How to use :
 
 
-### Keys :
 
 
 ## License :
