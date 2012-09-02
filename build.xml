@@ -51,7 +51,7 @@
         <delete dir="bin"/>
     </target>
     <target depends="clean" name="cleanall"/>
-    <target depends="build-subprojects,build-project" name="build"/>
+    <target depends="build-subprojects,build-project" name="build-all"/>
     <target name="build-subprojects"/>
     <target depends="init" name="build-project">
         <echo message="${ant.project.name}: ${ant.file}"/>
@@ -59,6 +59,16 @@
             <src path="src"/>
             <classpath refid="CollisionsEditor.classpath"/>
         </javac>
+    </target>
+    <target depends="build-all" name="build">
+        <jar destfile="./SpritesCollisionsEditor.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="collisioneditor.CollisionsEditor"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="./bin"/>
+            <fileset dir="./res"/>
+        </jar>
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
     <target name="CollisionsEditor">
