@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/phsym/SpritesCollisionsEditor.svg?branch=master)](https://travis-ci.org/phsym/SpritesCollisionsEditor)
 # Sprites Collisions Editor.
 *Copyright (C) 2012 Pierre-Henri Symoneaux*
 
